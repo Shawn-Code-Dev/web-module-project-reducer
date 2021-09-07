@@ -12,5 +12,5 @@ export const applyNumber = (number) => {
 }
 
 export const changeOperation = (str) => {
-    return({type:CHANGE_OPERATION, playload:str})
+    return({type:CHANGE_OPERATION, payload:str})
 }

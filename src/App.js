@@ -20,6 +20,7 @@ function App() {
 
   const handleOperation = (operator) => {
     dispatch(changeOperation(operator))
+    console.log(dispatch(changeOperation(operator)))
   }
 
   return (
